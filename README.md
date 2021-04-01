@@ -1,4 +1,4 @@
-<img src="https://github.com/CarpenPi/docs/blob/main/logo/CarpenPi_1.png" width="200px"> 
+<img src="https://github.com/CarpenPi/docs/raw/main/logo/CarpenPi_1.png" width="200px"> 
 
 # About CarpenPi
 
