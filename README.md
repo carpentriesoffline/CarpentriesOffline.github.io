@@ -2,7 +2,7 @@
 
 # About CarpenPi
 
-CarpenPi aims to facilitate [Software Carpentry](https://software-carpentry.org) and [Data Carpentry](http://datacarpentry.org) lessons to be taught from a cluster of [Raspberry Pis](https://www.raspberrypi.org), to allow them to be run in places with unreliable internet connections.
+CarpenPi aims to facilitate [Software Carpentry](https://software-carpentry.org) and [Data Carpentry](http://datacarpentry.org) lessons to be taught from a cluster of [Raspberry Pis](https://www.raspberrypi.org), to allow them to be run in places with unreliable Internet connections.
 
 CarpenPi was born out of the Software Sustainability Institute's [2021 Collababorations Workshop](https://www.software.ac.uk/cw21?_ga=2.230971867.593926244.1617037201-1031762173.1614775769). The idea was formed by a team during the Collaborative Ideas session, and the implementation began on the Hack Day. For more info on the project motivation see the [CollabW21-Demo-Presentation](https://github.com/CarpenPi/CollabW21-Demo-Presentation) repository.
 
