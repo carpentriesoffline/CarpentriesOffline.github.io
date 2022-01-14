@@ -1,0 +1,162 @@
+---
+title: "CW21 Hack Day"
+author: "CarpenPi Team"
+date: "01/04/2021"
+output:
+  ioslides_presentation:
+    logo: https://raw.githubusercontent.com/CarpenPi/docs/main/logo/CarpenPi_1.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+      $('slide:not(.title-slide, .backdrop, .segue)').append('<footer label=\"bit.ly/CarpenPi-CW21"></footer>');    
+    })
+</script>
+
+<style>
+  footer:after {
+    content: attr(label);
+    font-size: 12pt;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    line-height: 1.9;
+  }
+</style>
+
+<style type="text/css">
+slides > slide:not(.nobackground):after {
+  content: '';
+}
+</style>
+
+## HOW TO (RE-)USE THIS MATERIAL
+
+This is a `.html` presentation created in `R Markdown` with `ioslides`. 
+
+(It's been written in a [.Rmd](http://rmarkdown.rstudio.com) file, and we generated .html slides by 'knitting' it in Rstudio.)
+
+You can check out the code used to make these slides at the [Workshop repo](https://github.com/CarpenPi/CollabW21-Demo-Presentation) on Github (and the [workshop materials it's based on](https://bit.ly/wallace-lab-git)), and adapt it for your own presentations if you like - I've got a MIT Licence on the repo, which means: 
+
+*"Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source."*
+
+Source: [tl;drLegal](https://tldrlegal.com/license/mit-license)
+
+#  CarpenPi @ CW21 Hack Day
+
+## Outline: 
+
+* Dev Team
+* What problem does this project solve?
+* What is the solution?
+* FAIRness
+* How to contribute to the project?
+* Future Work / End of life
+
+
+## Dev Team
+
+<div class="centered">
+```{r, out.width = "575"}
+knitr::include_graphics("https://raw.githubusercontent.com/CarpenPi/CollabW21-Demo-Presentation/main/images/CarpenPiTeam_CW21.png")
+``` 
+</div>
+
+Abhishek Dasgupta\*, Alison Clarke\*, Emily Lewis\*, Flic Anderson\*, Irma Hafidz, Jannetta Steyn\*, Rebecca Wilson, Sam Haynes\*, Talia Caplan
+
+\* = Hack-Day Team
+
+## What problem does this project solve?
+
+<div class="centered">
+```{r, out.width = "700"}
+knitr::include_graphics("https://raw.githubusercontent.com/CarpenPi/CollabW21-Demo-Presentation/main/images/problem.png")
+``` 
+</div>
+
+<div class="notes">
+... slide notes ...
+</div>
+
+## What is the solution?
+
+This is how the proposed solution should work: 
+
+<div class="centered">
+```{r, out.width = "500"}
+knitr::include_graphics("https://raw.githubusercontent.com/CarpenPi/docs/main/pi-network.png")
+``` 
+</div>
+
+## What is the solution?
+
+Proof of concept of git server:
+
+```{r, out.width = "500"}
+knitr::include_graphics("https://raw.githubusercontent.com/CarpenPi/docs/main/gitea.png")
+``` 
+</div>
+
+## What is the solution?
+
+Set-up materials for workshop leaders:
+
+```{r, out.width = "600"}
+knitr::include_graphics("https://raw.githubusercontent.com/CarpenPi/CollabW21-Demo-Presentation/main/images/traintrainers.png")
+``` 
+
+<div class="notes">
+Re the traintrainers page:
+
+It was important to us to have a visible and accessible manual for instructors hoping to use this infrastructure.
+
+We've put together an initial workshop setup page based on the software carpentries template, and welcome further contributions!
+</div>
+
+
+## FAIRness
+
+`howfairis` tool has been added to the [workshop-admin](https://github.com/CarpenPi/workshop-admin) & will be added to other repos in the organisation
+
+Decisions reached collectively using emoji-votes & discussion, with thinking behind decisions listed in the wiki
+
+<div class="notes">
+... slide notes ...
+
+</div>
+
+## How to contribute to the project?
+
+Github Organisation! [CarpenPi](https://github.com/CarpenPi)  
+
+8 x Repos
+
+Project Organisation via GitHub projects [Kanban Board](https://github.com/orgs/CarpenPi/projects/1) & Issue Tracking   
+
+Project WIKI [at CarpenPi/docs](https://github.com/CarpenPi/docs/wiki)  
+
+Code of Conduct: Following Carpentries Code of Conduct
+
+<div class="notes">
+... slide notes ...
+</div>
+
+## Future Work / End of Life
+
+We want to develop a CI workflow to automatically update out Raspberry PI images with the last Carpentry Workshops. 
+
+Also, we intend to incorporate Dockers to reduce the number of separate Pi's needed to maintain the infrastructure. 
+
+Finally we want to expand the Admin web page to a fully functional Java app.
+
+<div class="notes">
+... slide notes ...
+</div>
+
+# (not) The End.
