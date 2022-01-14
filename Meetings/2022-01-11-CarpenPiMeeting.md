@@ -1,4 +1,7 @@
 # CarpenPi Community Meeting 10
+
+[![hackmd-github-sync-badge](https://hackmd.io/qseToSZoS4eOCYNNd0PWOg/badge)](https://hackmd.io/qseToSZoS4eOCYNNd0PWOg)
+
 ## Date: 2022-01-11
 
 ## [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
