@@ -14,7 +14,7 @@ We follow the Code of Conduct outlined by the [Carpentries](https://docs.carpent
 
 ## Architecture
 
-See [Pi-Network](https://github.com/CarpenPi/docs/wiki/Pi-Network) for an overview.
+See [Pi-Network](https://github.com/CarpenPi/CarpenPi.github.io/wiki/Pi-Network) for an overview.
 
 ## Repositories
 
