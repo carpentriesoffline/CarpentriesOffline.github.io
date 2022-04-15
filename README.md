@@ -26,7 +26,7 @@ See [Pi-Network](https://github.com/CarpenPi/CarpenPi.github.io/wiki/Pi-Network)
 * [git-server](https://github.com/CarpenPi/git-server): runs a git server on a Pi to allow course participants to collaborate via git without needing external internet access
 
 ### Other repositories
-* [TrainTrainers](https://github.com/CarpenPi/TrainTrainers): Carpentry course for trainers who want to use a Pi cluster
+* [TrainTrainers](https://carpenpi.github.io/CarpentriesOffline_Instructor_Onboarding/): Carpentry workshop for trainers who want to use a Pi cluster
 * [CollabW21-DemoPresentation](https://github.com/CarpenPi/CollabW21-Demo-Presentation): Presentation for the Collaborations Workshop Hackday
 * [docs](https://github.com/CarpenPi/docs): Repository for this wiki
 * [workshop-admin](https://github.com/CarpenPi/workshop-admin): Repository for a web app to help administer the courses
