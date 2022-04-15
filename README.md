@@ -1,10 +1,12 @@
-<img src="images/CarpenPi_1.png" width="200px"> 
+<img src="images/OFFLINE_a.png" width="200px"> 
 
-# About CarpenPi
+# About Carpentries Offline
 
-CarpenPi aims to facilitate [Software Carpentry](https://software-carpentry.org) and [Data Carpentry](http://datacarpentry.org) lessons to be taught from a cluster of [Raspberry Pis](https://www.raspberrypi.org), to allow them to be run in places with unreliable Internet connections.
+(Previously known as CarpenPi)
 
-CarpenPi was born out of the Software Sustainability Institute's [2021 Collababorations Workshop](https://www.software.ac.uk/cw21?_ga=2.230971867.593926244.1617037201-1031762173.1614775769). The idea was formed by a team during the Collaborative Ideas session, and the implementation began on the Hack Day. For more info on the project motivation see the [CollabW21-Demo-Presentation](https://github.com/CarpenPi/CollabW21-Demo-Presentation) repository.
+Carpentries Offline aims to facilitate [Software Carpentry](https://software-carpentry.org) and [Data Carpentry](http://datacarpentry.org) lessons to be taught from a cluster of [Raspberry Pis](https://www.raspberrypi.org), to allow them to be run in places with unreliable Internet connections.
+
+Carpentries Offline was born out of the Software Sustainability Institute's [2021 Collababorations Workshop](https://www.software.ac.uk/cw21?_ga=2.230971867.593926244.1617037201-1031762173.1614775769). The idea was formed by a team during the Collaborative Ideas session, and the implementation began on the Hack Day. For more info on the project motivation see the [CollabW21-Demo-Presentation](https://github.com/CarpenPi/CollabW21-Demo-Presentation) repository.
 
 ## Minimum Requirements
 All Raspberry Pi's need Wifi capability which is built into version 3 and 4 Pi's but USB dongles can be included for lower versions. At least two Pi's are required for infrastructure and then enough Pi's for all attendees.  
