@@ -1,5 +1,5 @@
 ## Title:
-Running Carpentries workshops offline
+### Running Carpentries workshops offline
 ---
 
 Just over a year ago at the Software Sustainability Institute's Collaborations Workshop (SSI CW2021), a group of us discussed the problem of delivering Carpentries Workshops in areas where there is no, limited or intermittent Internet access. We took the problem forward to the Hackday which was the last day of CW2021 and won the first prize with our solution. A year later we are still working on the project and I even managed to be awarded an SSI fellowship to develop it even further. The project started off being called CarpenPi but we decided to change the name to avoid any problems with trademarks and so we decided on The Carpentries Offline.
