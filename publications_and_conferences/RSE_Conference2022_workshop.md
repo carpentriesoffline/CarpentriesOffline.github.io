@@ -16,12 +16,14 @@ In this workshop, we would like to have attendees gather in groups of two or thr
 Please add your name here as you would like it to appear on the poster and in the published abstracts
 - Jannetta S. Steyn (jannetta.steyn@newcastle.ac.uk)
 - Abhishek Dasgupta (abhishek.dasgupta@cs.ox.ac.uk)
+- Virnaliz Cruz (virnaliz.cruzher@ufl.edu)
 
 ---
 ## Organisers
 Please add your name if you will be able to help with organising and/or running the workshop
 - Jannetta Steyn (jannetta.steyn@newcastle.ac.uk)
 - Abhishek Dasgupta (abhishek.dasgupta@cs.ox.ac.uk)
+- Virnaliz Cruz (virnaliz.cruzher@ufl.edu)
 
 --
 ## Form
