@@ -13,6 +13,7 @@ Please add your name here as you would like it to appear on the poster and in th
 - Virnaliz Cruz (virnaliz.cruzher@ufl.edu)
 - Ethan P. White (ethanwhite@ufl.edu)
 - Abhishek Dasgupta (abhishek.dasgupta@cs.ox.ac.uk)
+- Colin Sauze (cos@aber.ac.uk)
 
 
 ---
@@ -20,6 +21,7 @@ Please add your name here as you would like it to appear on the poster and in th
 Please add your name if you will be able to help with organising and/or running the workshop
 - Jannetta Steyn (jannetta.steyn@newcastle.ac.uk)
 - Abhishek Dasgupta (abhishek.dasgupta@cs.ox.ac.uk)
+- Colin Sauze (cos@aber.ac.uk)
 
 --
 ## Form
