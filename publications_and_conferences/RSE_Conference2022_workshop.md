@@ -17,6 +17,7 @@ Please add your name here as you would like it to appear on the poster and in th
 - Jannetta S. Steyn (jannetta.steyn@newcastle.ac.uk)
 - Abhishek Dasgupta (abhishek.dasgupta@cs.ox.ac.uk)
 - Virnaliz Cruz (virnaliz.cruzher@ufl.edu)
+- Colin Sauze (cos@aber.ac.uk)
 
 ---
 ## Organisers
@@ -24,6 +25,7 @@ Please add your name if you will be able to help with organising and/or running 
 - Jannetta Steyn (jannetta.steyn@newcastle.ac.uk)
 - Abhishek Dasgupta (abhishek.dasgupta@cs.ox.ac.uk)
 - Virnaliz Cruz (virnaliz.cruzher@ufl.edu)
+- Colin Sauze (cos@aber.ac.uk)
 
 --
 ## Form
