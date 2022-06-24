@@ -18,3 +18,18 @@ With funding from my SSI fellowship I have bought six RPi 400s. These are RPis i
 I hope that this project will be of interest to many of the readers who would like to get involved. Whether it is to help us with piloting workshop during the development phase or even with the development itself. If you think you can help in any way, please drop me an email. Our website and GitHub repository can be found at https://github.com/carpentriesoffline/CarpentriesOffline.github.io. And yes, even our website and landing page needs a load of work. 
 
 In my next post I hope to be able to share with you how I have solved the WiFi issue, and perhaps, share something about a trip I'm planning to do more pilot tests and learn about the issues people are facing in "Internet-poor" parts of the world.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg" width=200px alt="Raspberry Pi 4">
+<caption>
+  Raspberry Pi 4
+  
+  Photo by: Michael H. („Laserlicht“)&nbsp;/&nbsp;<a href="/wiki/Main_Page" title="Main Page">Wikimedia Commons</a>
+  </caption>
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/17377-Raspberry_Pi_400_Personal_Computer_Kit-03.jpg" width=400px alt="Raspberry Pi 400">
+  <caption>
+    Raspberry Pi 400
+  
+    Photo by: SparkFun Electronics, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
+  </caption>
+  
