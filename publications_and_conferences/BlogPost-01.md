@@ -1,5 +1,5 @@
 ## Title:
-### Running Carpentries workshops offline
+### Running Software/Data and Library Carpentries workshops offline
 #### Åuthor: Dr. Jannetta S. Steyn
 ---
 
