@@ -30,6 +30,5 @@ In my next post I hope to be able to share with you how I have solved the WiFi i
   <caption>
     Raspberry Pi 400
   
-    Photo by: SparkFun Electronics, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
-  </caption>
+<a href="https://commons.wikimedia.org/wiki/File:17377-Raspberry_Pi_400_Personal_Computer_Kit-03.jpg">SparkFun Electronics</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons  </caption>
   
