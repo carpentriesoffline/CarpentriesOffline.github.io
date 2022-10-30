@@ -1,4 +1,7 @@
-# CarpentriesOffline - conference feedback and call for help
+## Title:
+### CarpentriesOffline - conference feedback and call for help
+#### Author: Jannetta S. Steyn, Colin Sauze, Abhishek Dasgupta
+---
 
 I was fortunate enough to be able to attend quite a few session at CarpentryCon 2022 and as usual it was quite an experience. The amount of effort that the core team and the CarpentryCon Task Force must have put into organising the conference and make things run so smoothly goes beyond my comprehension. Not only were there sessions in both English and Spanish but we had sub-titles, captions, sign language and repeated sessions to accomodate people from different time zones.
 
@@ -6,8 +9,8 @@ With the help of Colin Sauze and Abhishek Dasgupta, I was able to run a breakout
 
 With this blogpost I would like to call on all readers who are interested in the project -  whether it is just to see what we are up to or whether it is because you would like to help out - to make use of the following resources to get in contact:
 
-1. Our Website
-2. Our Slack workspace
+1. Our GitHub repository: https://github.com/carpentriesoffline
+2. Our Slack workspace: https://join.slack.com/t/carpentriesoffline/shared_invite/zt-1ius4uxys-5Q6qVVdcoqGcMgWrRh14Rg
 
 If for any reason you have problems to get into contact with us via the above, then track one of us down in the main Carpentries Slack workspace. It is quite impossible for us to hide!
 
