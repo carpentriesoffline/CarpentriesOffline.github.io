@@ -1,5 +1,5 @@
 ## Title:
-### CarpentriesOffline - conference feedback and call for help
+### CarpentriesOffline - CarpentryCon 2022 feedback and call for help
 #### Author: Jannetta S. Steyn, Colin Sauze, Abhishek Dasgupta
 ---
 
