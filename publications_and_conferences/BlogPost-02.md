@@ -3,7 +3,7 @@
 #### Author: Jannetta S. Steyn, Colin Sauze, Abhishek Dasgupta
 ---
 
-I was fortunate enough to be able to attend quite a few session at CarpentryCon 2022 and as usual it was quite an experience. The amount of effort that the core team and the CarpentryCon Task Force must have put into organising the conference and make things run so smoothly goes beyond my comprehension. Not only were there sessions in both English and Spanish but we had sub-titles, captions, sign language and repeated sessions to accomodate people from different time zones.
+I was fortunate enough to be able to attend quite a few sessions at CarpentryCon 2022 and as usual it was quite an experience. The amount of effort that the core team and the CarpentryCon Task Force must have put into organising the conference and make things run so smoothly goes beyond my comprehension. Not only were there sessions in both English and Spanish but we had sub-titles, captions, sign language and repeated sessions to accomodate people from different time zones.
 
 With the help of Colin Sauze and Abhishek Dasgupta, I was able to run a breakout session and my lightning talk was presented in three sessions. From the four sessions we were able to get really interesting questions and invaluable feedback from the community. Several people expressed their interest in the project and willingness to contribute in some way or the other. Kari Jordan also asked whether there is any way that the core committee can support us.
 
@@ -16,7 +16,7 @@ If for any reason you have problems to get into contact with us via the above, t
 
 Some of the things that we need help with are the following:
 
-1. Our website
+1. Our website (https://carpentriesoffline.org)
 2. Testing our scripts for creating Raspberry Pi images
 3. Testing our infrastructure
 4. Running pilot offline workshops
