@@ -1,4 +1,7 @@
 # Carpentries Offline Community Meeting 14
+
+[![hackmd-github-sync-badge](https://hackmd.io/lb-FGwI7R4ienOxhQSW3Yg/badge)](https://hackmd.io/lb-FGwI7R4ienOxhQSW3Yg)
+
 ## Date: 2022-05-03
 
 ## GitHub Repository
