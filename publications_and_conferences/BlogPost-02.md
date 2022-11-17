@@ -5,9 +5,9 @@
 
 In July we published our first blog post to introduce CarpentriesOffline. This will be post number two, a report back of CarpentryCon 2022. We should probably get a name for this series. Any suggestions?
 
-If you are not familiar with CarpentriesOffline - it is a project to create an environment for delivering Carpentries workshops offline using Raspberry Pi (RPi) computers. It could actually be any computer lying around that you don't know what to do with, but for starters we are focussing on the RPi.
+If you are not familiar with CarpentriesOffline - it is a project aimed at creating an environment for delivering Carpentries workshops offline using Raspberry Pi (RPi) computers. It could actually be any computer lying around that you don't know what to do with, but for starters, we are focussing on the RPi.
 
-I (Jannetta) was fortunate enough to be able to attend quite a few sessions at CarpentryCon 2022 and as usual it was quite an experience. The amount of effort that the core team and the CarpentryCon Task Force must have put into organising the conference and make things run so smoothly goes beyond my comprehension. Not only were there sessions in both English and Spanish but we had sub-titles, captions, sign language and repeated sessions to accomodate people from different time zones.
+I (Jannetta) was fortunate enough to be able to attend quite a few sessions at CarpentryCon 2022 and as usual, it was quite an experience. The amount of effort that the core team and the CarpentryCon Task Force must have put into organising the conference and make things run so smoothly goes beyond my comprehension. Not only were there sessions in both English and Spanish but we had sub-titles, captions, sign language and repeated sessions to accomodate people from different time zones.
 
 With the help of Colin Sauze and Abhishek Dasgupta, we ran a breakout session and my lightning talk was presented in three sessions. From the four sessions we were able to get really interesting questions and invaluable feedback from the community. Several people expressed their interest in the project and willingness to contribute in some way or the other. Kari Jordan also asked whether there is any way that the core committee can support us.
 
