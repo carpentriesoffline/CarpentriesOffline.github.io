@@ -5,11 +5,11 @@
 
 Carpentries Offline was born out of the Software Sustainability Institute's [2021 Collababorations Workshop](https://www.software.ac.uk/cw21?_ga=2.230971867.593926244.1617037201-1031762173.1614775769). The idea was formed by a team during the Collaborative Ideas session, and the implementation began on the Hack Day. Our aim was to find a solution to the challenges presented when trying to run workshops with limited or no Internet access.
 
-For the last year we have been working on creating an image that can be written to an SD card which is then used to boot a Raspberry Pi (RPi). The SD card turns the RPi into 
+For the last year we have been working on creating an image that can be written to an SD card which is then used to boot a Raspberry Pi (RPi). The SD card turns the RPi into:
 
 - an access point for learners to connect to with their computers, 
 - a web server with all the learning materials
-- a Gitea server which serves as a replacement for GitHub to practise the collaborative parts of version control with Git
+- a Gitea server which acts as a replacement for GitHub to practise the collaborative parts of version control with Git
 
 We have, so far experienced a few challenges with this solution.
 - there seems to be a limit to the number of computers that can connect to the RPi access point
