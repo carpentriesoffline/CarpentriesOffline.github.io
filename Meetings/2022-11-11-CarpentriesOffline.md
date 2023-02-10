@@ -1,4 +1,4 @@
-# Carpentries Offline Community Meeting #19
+# Carpentries Offline Community Meeting #18
 
 [![hackmd-github-sync-badge](https://hackmd.io/9buDdEseQRqPo62jSsbt6Q/badge)](https://hackmd.io/9buDdEseQRqPo62jSsbt6Q)
 
