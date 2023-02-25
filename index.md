@@ -3,7 +3,6 @@ layout: default
 title: Carpentries Offline
 ---
 
-<button onclick="window.location.href='/contactus'" class="button button4">Contact Us</button>
 
 *(If you would like to fix something or contribute, please make your way to our GitHub repositories at [https://github.com/carpentriesoffline/](https://github.com/carpentriesoffline/)).*
 

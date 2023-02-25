@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+<div class="article single-view">
+   <div class="entry-header">
+	   <h1 class="entry-title">
+		   <a href="">{{ page.title }}</a>
+	   </h1>
+   </div>
+	 <div class="entry-meta-top">
+	   <div class="entry-author author vcard">{{ page.date | date_to_string }}</div>
+	   <div class="entry-date">Posted by {{ page.author }}</div>
+	 </div>
+  {{ content }}
+	<div class="entry-meta-bottom">
+    Tags:
+    {% for tag in page.tags %}
+      {{ tag }}
+    {% endfor %}
+	</div>   
+</div>

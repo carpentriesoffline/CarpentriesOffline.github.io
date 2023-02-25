@@ -13,10 +13,17 @@ h1 {
   font-size: 30;
 }
 
-.button4 {border-radius: 12px;}
+.button_blue {
+  border-radius: 12px;
+  background-color: #0A145B;
+}
+
+.button_red {
+  border-radius: 12px;
+  background-color: #550000;
+}
 
 .button {
-  background-color: #0A145B; /* Green */
   border: none;
   color: white;
   padding: 20px;
