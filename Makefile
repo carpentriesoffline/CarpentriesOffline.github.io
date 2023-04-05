@@ -13,3 +13,5 @@ JEKYLL_VERSION=3.8
 serve:
 	docker run --rm --name ${NAME} --volume="${PROJECT}:${DOCKERMOUNTPOINT}" --publish ${HOSTPORT}:${DOCKERPORT} jekyll/jekyll:3.8 jekyll serve
 
+stop:
+	docker stop ${NAME}
