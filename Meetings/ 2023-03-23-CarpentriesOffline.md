@@ -1,4 +1,7 @@
 # Carpentries Offline Community Meeting #20
+
+[![hackmd-github-sync-badge](https://hackmd.io/ocQfc9RiSpaukKRSq6az7w/badge)](https://hackmd.io/ocQfc9RiSpaukKRSq6az7w)
+
 ## Date: 2023-03-23 15:30 - 16:30 London Time
 
 ## GitHub Repository
