@@ -1,43 +1,43 @@
 ---
-layout: default
+layout: page
 title: Carpentries Offline
 ---
 
-
 *(If you would like to fix something or contribute, please make your way to our GitHub repositories at [https://github.com/carpentriesoffline/](https://github.com/carpentriesoffline/)).*
 
-Carpentries Offline was born out of the Software Sustainability Institute's [2021 Collababorations Workshop](https://www.software.ac.uk/cw21?_ga=2.230971867.593926244.1617037201-1031762173.1614775769). The idea was formed by a **[team](originalteam)** during the Collaborative Ideas session, and the implementation began on the Hack Day. Our aim was to find a solution to the challenges presented when trying to run workshops with limited or no Internet access.
-
-For the last year we have been working on creating an image that can be written to an SD card which is then used to boot a Raspberry Pi (RPi). The SD card turns the RPi into:
-
-- an access point for learners to connect to with their computers, 
-- a web server with all the learning materials
-- a Gitea server which acts as a replacement for GitHub to practise the collaborative parts of version control with Git
-
-We have, so far, experienced a few challenges with this solution.
-- there seems to be a limit to the number of computers that can connect to the RPi access point
-- RPis suddenly became impossible to obtain after Covid lockdown - however, they are available again.
+CarpentriesOffline aims to provide a solution for running Software, Data, Library and HPC Carpentries workshop in areas where there is limited or no Internet access.
 
 Several people have also pointed out that an offline solution could serve more than just folks in Internet challenged areas. Sometimes, it would be useful not to have to rely on Internet access to avoid any problems during a workshop. So there is scope for this project to serve a much wider community that originally anticipated.
 
+We started the project by creating a software image that can be written to an SD card for use in a Raspberry Pi (RPi) computer, to turn it into an access point and a server. However, for the past few years RPis have become very difficult to source. We also learnt that there are certain limits when using RPis and so we decided to look into alternative solutions. 
+
 We would not want to see the RPi idea go to waste as we still believe it will provide an excellent solution. But to provide an alternative we have thought it well to start work on creating a bootable USB stick with a version of Linux and all the previously mentioned content and services. Learners and instructors usually have their own laptops when they attend a workshop. The USB stick can then be used to turn the instructors laptop into an access point and web server.
 
-There are now three threads of development for CarpentriesOffline, 1) The Raspberry Pi SD card image, 2) The bootable flashdrive and 3) a mini HPC using Rock boards (or any SBC).
+There are now three threads of development for CarpentriesOffline, 1) The Raspberry Pi SD card image, 2) The bootable flashdrive and 3) a mini HPC.
 
-<div id="grid">
-	<div class="left">
+<div class="container">
+	<div class="item blue">
 		<div class="colhead">
 			Raspberry Pi SD card image
 		</div>
+		<div class="colbody">
+			<a href="rpiimage"><img src="images/sd_card.png" height="150px"></a>
+		</div>
 	</div>
-	<div class="center">
+	<div class="item red">
 		<div class="colhead">
 			Bootable Flash Drive
 		</div>
+		<div class="colbody">
+			<a href="flashDrive"><img src="images/FlashDrive.png" height="150px"></a>
+		</div>
 	</div>
-	<div class="right">
+	<div class="item blue">
 		<div class="colhead">
-			mini HPC
+			<a href="miniHPC">mini HPC</a>
+		</div>
+		<div class="colbody">
+			<a href="miniHPC"><img src="images/mini-HPC-proto1.png" width="350px"></a>
 		</div>
 	</div>
 </div>
