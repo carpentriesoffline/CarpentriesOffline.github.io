@@ -37,7 +37,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			<a href="miniHPC">mini HPC</a>
 		</div>
 		<div class="colbody">
-			<a href="miniHPC"><img src="images/mini-HPC-proto1.png" width="350px"></a>
+			<a href="miniHPC"><img src="images/mini-HPC-proto1.png" width="300px"></a>
 		</div>
 	</div>
 </div>
