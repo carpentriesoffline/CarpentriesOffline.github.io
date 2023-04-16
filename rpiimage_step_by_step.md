@@ -8,7 +8,6 @@ layout: static
 
 - Using the Raspberry Pi imager, create an SD card with the Raspberry Pi OS lite image. Configure the image to connect to your local access point and create a user with a password. Username: `carpentries`, `Password: carpentries`
 
-{% include codeHeader.html %}
 ```
 ssh into the Pi
 sudo apt-get update -y
@@ -17,7 +16,9 @@ sudo apt-get install git -y
 ```
 
 ### Clone the repository
-- git clone https://github.com/carpentriesoffline/carpentriesoffline-installer.git
+```
+git clone https://github.com/carpentriesoffline/carpentriesoffline-installer.git
+```
 
 ### Setting up the Web Server
 ```
