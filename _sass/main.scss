@@ -10,14 +10,29 @@ body {
   font-family: arial;
   font-size: 14px;
   width: 1024px;
+  height: 100vh;
+  text-align: justify;
 }
 
 h1 {
   color:  #e74c3c ;
 }
 
+h2 {
+  color:  #e74c3c ;
+  text-align: center;
+}
+
 .header {
   font-size: 30;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.button_blue:hover {
+  background-color: #444444;
 }
 
 .button_blue {
@@ -89,4 +104,26 @@ h1 {
 .colbody {
 	display: flex;
 	justify-content: center;
+}
+
+.floatright {
+	float:right;
+	border: 3px solid #071159;
+	width: 250px;
+	height: 100vh;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 0 0 10px;
+}
+
+.copy-code-button {
+  display: block;
+}
+
+.highlight {
+	background: #CCCCCC;
+	border: 1px;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
 }

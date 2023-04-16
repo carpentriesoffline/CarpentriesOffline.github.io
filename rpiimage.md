@@ -12,4 +12,4 @@ We have, so far, experienced a few challenges with this solution.
 - there seems to be a limit to the number of computers that can connect to the RPi access point
 - RPis suddenly became impossible to obtain after Covid lockdown - however, they are available again.
 
-
+<a href="rpiimage_step_by_step">Step-by-step instructions for creating the SD card image</a>

@@ -5,7 +5,8 @@ layout: static
 <div style="text-align:center; padding: 20px; font-size: 16px; font-weight: bold;">
 <div style="padding: 20px;">Meet Pixie. Our first prototype.</div>
 <img style="border-radius: 20px;" src="images/mini-HPC-proto1.png" width="600px">
-</div>
+</div class="mainframe">
+{% include sidebar.md %}
 <div>
 <h2>What?</h2>
 Pixie is our prototype High Performance Computer (HPC), built with:
@@ -30,7 +31,7 @@ There are two parts to the why. 1) Why RPis when we have already mentioned that 
 Because RPis are nowhere to be found, the decision was made to buy Rock 4SE SBCs. The problems is that these boards are only available at two companies in the UK, RS and OKdo, and OKdo is a subsidiary of RS. We noticed that they have discounts available for education so we started an enquiry into the possibility of getting these discounts. Unfortunately this is where the wheels came off. It took three weeks before we could eventually place an order and when the last batch of items, the PoE hats, arrived, they didn't fit the Rock 4 boards. While this was going on, to not waste time, we started putting together a mini-HPC using Raspberry Pis that we already own.
 
 <h3>Why a mini HPC?</h3>
-Many people have built Raspberry Pi HPCs, why do we want to include this as part of the CarpentriesOffline project. The need for this project became apparent in February 2023 when we ran a workshop for the N8 at Newcastle University using the Carpentries Incubator lesson, Introduction to High-Performance Computing. There are a few things that seem to, almost always, go wrong when running a workshop such as this one:
+Many people have built Raspberry Pi HPCs, why do we want to include this as part of the CarpentriesOffline project? The need for this project became apparent in February 2023 when we ran a workshop for the N8 at Newcastle University using the Carpentries Incubator lesson, Introduction to High-Performance Computing. There are a few things that seem to, almost always, go wrong when running a workshop such as this one:
 
 <ol>
 	<li>People do not register for HPC accounts before the workshop. Most HPCs will have certain hoops you need to jump through when you want to obtain a user account on them. There are often time delays to get the accounts approved which means that if the learners did not obtain their logins before the workshop they are not guaranteed to get a login arranged on the day of the workshop.</li>
