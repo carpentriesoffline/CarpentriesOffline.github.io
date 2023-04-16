@@ -5,7 +5,7 @@ layout: static
 <div style="text-align:center; padding: 20px; font-size: 16px; font-weight: bold;">
 <div style="padding: 20px;">Meet Pixie. Our first prototype.</div>
 <img style="border-radius: 20px;" src="images/mini-HPC-proto1.png" width="600px">
-</div class="mainframe">
+</div>
 {% include sidebar.md %}
 <div>
 <h2>What?</h2>
