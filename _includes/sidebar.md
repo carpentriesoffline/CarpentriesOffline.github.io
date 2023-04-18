@@ -1,4 +1,8 @@
 
 <div class="floatright">
-	<center><h2>More info</h2></center>
+	<center><h2>Index of all Pages</h2></center>
+	{% assign pages = site.pages | sort %}
+	{% for page in pages %}
+		<a href="{{page.url}}">{{page.title}}</a><br>
+	{% endfor %}
 </div>

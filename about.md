@@ -1,5 +1,6 @@
 ---
 layout: page
+title: About
 ---
 
 Carpentries Offline was born out of the Software Sustainability Institute's [2021 Collababorations Workshop](https://www.software.ac.uk/cw21?_ga=2.230971867.593926244.1617037201-1031762173.1614775769). The idea was formed by a **[team](originalteam)** during the Collaborative Ideas session, and the implementation began on the Hack Day. Our aim was to find a solution to the challenges presented when trying to run workshops with limited or no Internet access.

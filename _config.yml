@@ -1,1 +1,2 @@
-highlighter:rouge
+
+exclude: ["node_modules", "CollabW21-Demo-Presentation/", "publications_and_conferences/"]

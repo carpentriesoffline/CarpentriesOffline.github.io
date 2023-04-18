@@ -1,5 +1,6 @@
 ---
 layout: static
+title: SD Card Image for Raspberry Pi 
 ---
 
 For the last year we have been working on creating an image that can be written to an SD card which is then used to boot a Raspberry Pi (RPi). The SD card turns the RPi into:

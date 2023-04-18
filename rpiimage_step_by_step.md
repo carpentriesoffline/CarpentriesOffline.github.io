@@ -1,5 +1,6 @@
 ---
 layout: static
+title: "Creating an SD card imgae: step-by-step"
 ---
 
 <h2>Creating an SD card image: step-by-step</h2>
@@ -22,7 +23,8 @@ git clone https://github.com/carpentriesoffline/carpentriesoffline-installer.git
 
 ### Setting up the Web Server
 ```
-# Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html because RaspAP will be using port 80 and /var/www/html
+# Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html 
+# because RaspAP will be using port 80 and /var/www/html
 sudo cp -r carpentriesoffline-install/html/. /var/www/html/
 sudo apt-get install apache2 -y
 sudo cp carpentriesoffline-installer/ApacheConfFiles/apache2.conf /etc/apache2/
@@ -39,7 +41,8 @@ cd ~
 mkdir html
 cd html
 /home/carpentries/.local/bin/offlinedatasci install all .
-# Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html because RaspAP will be using port 80 and /var/www/html
+# Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html 
+# because RaspAP will be using port 80 and /var/www/html
 sudo mv ~/html/* /var/www/apache_html.
 ```
 
@@ -47,7 +50,8 @@ sudo mv ~/html/* /var/www/apache_html.
 
 ```
 latest_gitea="1.19.1"
-arch=$(lscpu | grep "^Arch" | awk '{print $2}' | sed 's/i[0-9]86/386/' | sed 's/armv[0-9]l/arm-6/' | sed 's/x86_64/amd64/' | sed 's/aarch64/arm-6/' )
+arch=$(lscpu | grep "^Arch" | awk '{print $2}' | sed 's/i[0-9]86/386/' | sed 's/armv[0-9]l/arm-6/' | \
+	sed 's/x86_64/amd64/' | sed 's/aarch64/arm-6/' )
 sudo wget https://dl.gitea.io/gitea/$latest_gitea/gitea-$latest_gitea-linux-$arch -O /usr/local/bin/gitea
 chmod +x /usr/local/bin/gitea
 adduser \
@@ -68,7 +72,8 @@ sudo chmod 770 /etc/gitea
 sudo sudo cp carpentriesoffline-installer/installer/gitea/app.ini /etc/gitea/app.ini
 sudo chown git:git /etc/gitea/app.ini
 
-wget https://raw.githubusercontent.com/go-gitea/gitea/main/contrib/systemd/gitea.service -O /etc/systemd/system/gitea.service
+wget https://raw.githubusercontent.com/go-gitea/gitea/main/contrib/systemd/gitea.service \
+	-O /etc/systemd/system/gitea.service
 systemctl enable gitea
 systemctl start gitea
 ```
