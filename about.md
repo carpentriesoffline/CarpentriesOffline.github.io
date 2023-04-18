@@ -11,7 +11,7 @@ Carpentries Offline was born out of the Software Sustainability Institute's [202
 
 Our HackDay team. Very proud of ourselves for winning the HackDay with CarpenPi:
 
-<img alt="Zoom screen shot of the CarpenPi Team at SSI CW 2021" src="images/SSICW2021_HackDayWinners.png" width="600px">
+<img alt="Zoom screen shot of the CarpenPi Team at SSI CW 2021" src="images/SSICW2021_HackDayWinners-600px.jpg" width="600px">
 
 <center>
 <table style="width:600px; text-align:center;border: 1px solid black">
