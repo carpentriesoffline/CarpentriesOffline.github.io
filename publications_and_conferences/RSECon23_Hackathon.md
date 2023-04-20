@@ -1,3 +1,11 @@
+## Author List
+
+Name: Colin Sauze, email: colin.sauze@noc.ac.uk , ORCID: 0000-0001-5368-9217, Institution: National Oceanography Centre, Country: United Kingdom, Job title: Senior Research Software Engineer
+
+Name: Jannetta Steyn, email: Jannetta.Steyn@newcastle.ac.uk, ORCID: , Institution: , Country: United Kingdom, Job title: Senior Research Software Engineer
+
+Name: , email: , ORCID: , Institution: , Country: United Kingdom, Job title: Research Software Engineer
+
 ## Ideas for a hackathon
 
 * Mass testing, how many people can we get connected at once? Does a USB wifi dongle work better than a Pi's built in wifi? How well do laptops and other devices work for testing? Do our webpages work correctly on a range of operating systems and browsers?
