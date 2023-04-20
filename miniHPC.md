@@ -5,7 +5,7 @@ title: Building a mini HPC
 
 <div style="text-align:center; padding: 20px; font-size: 16px; font-weight: bold;">
 <div style="padding: 20px;">Meet Pixie. Our first prototype.</div>
-<img style="border-radius: 20px;" src="images/mini-HPC-proto1.png" width="600px">
+<img style="border-radius: 20px;" src="images/mini-HPC-proto1-600px.jpg" width="600px">
 </div>
 {% include sidebar.md %}
 <div>

@@ -21,7 +21,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			Raspberry Pi SD card image
 		</div>
 		<div class="colbody">
-			<a href="rpiimage"><img src="images/sd_card.png" height="150px"></a>
+			<a href="rpiimage"><img src="images/sd_card-150px.jpg" height="150px"></a>
 		</div>
 	</div>
 	<div class="item red">
@@ -29,7 +29,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			Bootable Flash Drive
 		</div>
 		<div class="colbody">
-			<a href="flashDrive"><img src="images/FlashDrive.png" height="150px"></a>
+			<a href="flashDrive"><img src="images/FlashDrive-150px.jpg" height="150px"></a>
 		</div>
 	</div>
 	<div class="item blue">
@@ -37,7 +37,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			<a href="miniHPC">mini HPC</a>
 		</div>
 		<div class="colbody">
-			<a href="miniHPC"><img src="images/mini-HPC-proto1.png" width="300px"></a>
+			<a href="miniHPC"><img src="images/mini-HPC-proto1-300px.jpg" width="300px"></a>
 		</div>
 	</div>
 </div>
