@@ -2,6 +2,14 @@
 
 ## Draft of submission form
 
+### Authors
+
+Name: Colin Sauze, email: colin.sauze@noc.ac.uk , ORCID: 0000-0001-5368-9217, Institution: National Oceanography Centre, Country: United Kingdom, Job title: Senior Research Software Engineer
+
+Name: Jannetta Steyn, email: Jannetta.Steyn@newcastle.ac.uk, ORCID: , Institution: , Country: United Kingdom, Job title: Senior Research Software Engineer
+
+Name: , email: , ORCID: , Institution: , Country: United Kingdom, Job title: Research Software Engineer
+
 ### Event type 
 ***Please choose your planned means of presentation.
 If your submission is accepted, we may suggest an alternative event format if reviewers recommend it.
