@@ -1,6 +1,6 @@
 ---
 layout: static
-title: Flash Drive
+title: "Flash Drive"
 ---
 
 {% include sidebar.md %}
