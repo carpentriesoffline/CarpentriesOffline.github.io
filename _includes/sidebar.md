@@ -1,7 +1,7 @@
 
 <div class="floatright">
 	<center><h2>Index of all Pages</h2></center>
-	{% assign pages = site.pages | sort %}
+	{% assign pages = site.pages | sort 'title' %}
 	{% for page in pages %}
 		<a href="{{page.url}}">{{page.title}}</a><br>
 	{% endfor %}
