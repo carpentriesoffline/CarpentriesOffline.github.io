@@ -7,7 +7,6 @@ title: Building a mini HPC
 <div style="padding: 20px;">Meet Pixie. Our first prototype.</div>
 <img style="border-radius: 20px;" src="images/mini-HPC-proto1-600px.jpg" width="600px">
 </div>
-{% include sidebar.md %}
 <div>
 <h2>What?</h2>
 Pixie is our prototype High Performance Computer (HPC), built with:
