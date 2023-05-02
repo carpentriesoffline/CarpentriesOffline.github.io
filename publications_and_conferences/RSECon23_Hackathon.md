@@ -14,6 +14,8 @@ Name: Abhishek Dasgupta , email: abhishek.dasgupta@dtc.ox.ac.uk , ORCID: 0000-00
 * Practice lesson: run through a lesson (or at least some relevant parts of it) to test the web pages, gitea, etherpad, jupyter etc.
 * Bug fixing session: try to fix any outstanding bugs we have.
 * New feature implementation/exploration: What haven't we written yet that would be helpful? Screen sharing so we don't need a projector? Using laptops to host? Running surveys and forwarding the results to the Carpentries?
+* Testing the Carpentries Offline HPC - we have a Pi based multicore machine that it would be beneficial to test. Can it effectively speed up parallel computing tasks compared to running on a personal laptop? Users or small groups can access the Pi-based HPC and attempt to run parallel tasks of their choice, testing the limits of the hardware and the usability of this system.
+* Make your own Pi-based HPC (in person only) - we can provide the hardware components and a set of instructions for a group to attempt to reproduce the carpentries offline Pi HPC. This would allow us to test the current documentation to see whether it is comprehensive enough for non-experts to follow.
 
 ## Draft of submission form
 
@@ -49,6 +51,7 @@ This hackathon aims to:
 
 * Sharing the instructor's screen to learner's devices for envrionments without a projector
 * Capturing pre and post workshop surveys and reporting these back to the Carpentries
+* Testing the newly developed Carpentries Offline Pi-based HPC
 
 3. Get the CarpentriesOffline software stack into a beta state where it is ready for instructors around the world to use it with little or no prior contact with the developers.
 
@@ -83,6 +86,10 @@ Hardware/room requirements:
 * A standard USB mouse and keyboard that we can plug into a Raspberry Pi
 
 We will be running a CarpentriesOffline system from a Raspberry Pi and/or laptop that we will bring. Attendees will need to bring a laptop, the only software required will be a web browser and git client.
+
+Contribution Guidelines:
+
+The code base for Carpentries Offline is currently hosted on Github, and we would encourage participants to contribute to a new branch on the existing Github, creating a pull request to the main development branch once the hackathon work is complete. Guidelines for participants new to git will be provided.
 
 ### Attendees and helpers
 
