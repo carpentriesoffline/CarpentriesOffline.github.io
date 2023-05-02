@@ -8,13 +8,16 @@ Name: Jannetta Steyn, email: Jannetta.Steyn@newcastle.ac.uk, ORCID: 0000-0002-02
 
 Name: Abhishek Dasgupta , email: abhishek.dasgupta@dtc.ox.ac.uk , ORCID: 0000-0003-4420-0656, Institution: University of Oxford, Country: United Kingdom, Job title: Senior Research Software Engineer
 
+Name: Frances Turner, email: Frances.Hutchings@newcastle.ac.uk, ORCID: , Institution: Newcastle University, Country, United Kingdom, Job title: Research Software Engineer
+
 ## Ideas for a hackathon
 
 * Mass testing, how many people can we get connected at once? Does a USB wifi dongle work better than a Pi's built in wifi? How well do laptops and other devices work for testing? Do our webpages work correctly on a range of operating systems and browsers?
 * Practice lesson: run through a lesson (or at least some relevant parts of it) to test the web pages, gitea, etherpad, jupyter etc.
 * Bug fixing session: try to fix any outstanding bugs we have.
 * New feature implementation/exploration: What haven't we written yet that would be helpful? Screen sharing so we don't need a projector? Using laptops to host? Running surveys and forwarding the results to the Carpentries?
-* Testing the Carpentries Offline HPC - we have a Pi based multicore machine that it would be beneficial to test. Can it effectively speed up parallel computing tasks compared to running on a personal laptop? Users or small groups can access the Pi-based HPC and attempt to run parallel tasks of their choice, testing the limits of the hardware and the usability of this system.
+* Testing the Carpentries Offline HPC - We have a Rapsberry Pi based multinode mini-HPC that it would be beneficial to test. Users or small groups can access the Pi-based HPC and attempt to run tasks from the HPC Carpentry lessons, testing the limits of the hardware and the usability of this system.
+* Develop HPC Carpentry lesson content for the Mini HPC. 
 * Make your own Pi-based HPC (in person only) - we can provide the hardware components and a set of instructions for a group to attempt to reproduce the carpentries offline Pi HPC. This would allow us to test the current documentation to see whether it is comprehensive enough for non-experts to follow.
 
 ## Draft of submission form
@@ -37,7 +40,7 @@ Carpentries Offline Development Hackathon
 
 ***Please enter an abstract of your talk, panel, workshop, walkthrough or poster (max 250 words)***
 
-CarpentriesOffline is an out of the box solution for running a Carpentries workshop from a single device such as a Raspberry Pi, old laptop or even a dedicated server. It is intended for use in environments where there is limited or no internet accesss. Everything needed to run the workshop including course notes, data files, software downloads, a Git server, etherpad and a Jupyter Hub server are provided by the CarpentriesOffline system. It can also provide a backup environment for those with better connectivity in the event of the Carpentries website, etherpad, github etc suffering an outage. The software stack is currently in an alpha state and requires extensive testing.
+CarpentriesOffline is an out of the box solution for running a Carpentries workshop from a single device such as a Raspberry Pi, old laptop or a dedicated server. It is intended for environments with limited or no internet accesss. It provides everything needed to run the workshop including course notes, data files, software downloads, a Git server, etherpad and Jupyter Hub server. It can also provide a backup environment for those with better connectivity. It is currently in an alpha state and requires extensive testing.
 
 This hackathon aims to:
 
@@ -49,13 +52,14 @@ This hackathon aims to:
 
 2. Explore possible solutions for new functionality, including:
 
-* Sharing the instructor's screen to learner's devices for envrionments without a projector
-* Capturing pre and post workshop surveys and reporting these back to the Carpentries
-* Testing the newly developed Carpentries Offline Pi-based HPC
+* Sharing the instructor's screen to learner's devices in envrionments without a projector
+* Capturing pre and post workshop surveys and reporting these to the Carpentries
 
 3. Get the CarpentriesOffline software stack into a beta state where it is ready for instructors around the world to use it with little or no prior contact with the developers.
 
 4. To recruit new developers to the project.
+
+5. Test and develop material for a mini-HPC which also uses Raspberry Pi's. This is intended for teaching HPC Carpentry to those without access to an HPC.
 
 ### Themes
 
@@ -85,11 +89,16 @@ Hardware/room requirements:
 * A screen or projector with HDMI or micro HDMI connectors. A screen (just standard size is ok) for the Raspberry Pi and a projector or second screen to show code, notes etc would be helpful but isn't essential.
 * A standard USB mouse and keyboard that we can plug into a Raspberry Pi
 
-We will be running a CarpentriesOffline system from a Raspberry Pi and/or laptop that we will bring. Attendees will need to bring a laptop, the only software required will be a web browser and git client.
+We will be running a CarpentriesOffline system from a Raspberry Pi and/or laptop that we will bring. Attendees will need to bring a laptop, the only software required will be a web browser, git client and possibly an SSH client.
 
 Contribution Guidelines:
 
-The code base for Carpentries Offline is currently hosted on Github, and we would encourage participants to contribute to a new branch on the existing Github, creating a pull request to the main development branch once the hackathon work is complete. Guidelines for participants new to git will be provided.
+For code contributions: The code base for Carpentries Offline is currently hosted on Github, and we would encourage participants to contribute to a new 
+branch on the existing Github, creating a pull request to the main development branch once the hackathon work is complete. 
+
+For testing contributions: The results of tests performed will be captured in Github issues and we will ask testers to log problems they have and performance metrics in issues.
+
+Guidelines for participants new to Git/Github will be provided. 
 
 ### Attendees and helpers
 
