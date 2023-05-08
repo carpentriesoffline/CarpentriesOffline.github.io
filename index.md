@@ -21,7 +21,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			Raspberry Pi SD card image
 		</div>
 		<div class="colbody">
-			<a href="rpiimage"><img src="images/sd_card-150px.jpg" height="150px"></a>
+			<a href="rpiimage"><img src="images/sd_card.png" height="150px"></a>
 		</div>
 	</div>
 	<div class="item red">
@@ -29,7 +29,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			Bootable Flash Drive
 		</div>
 		<div class="colbody">
-			<a href="flashDrive"><img src="images/FlashDrive-150px.jpg" height="150px"></a>
+			<a href="flashdrive"><img src="images/FlashDrive-150px.jpg" height="150px"></a>
 		</div>
 	</div>
 	<div class="item blue">
