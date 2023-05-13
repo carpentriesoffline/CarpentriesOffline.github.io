@@ -8,7 +8,7 @@ Name: Jannetta Steyn, email: Jannetta.Steyn@newcastle.ac.uk, ORCID: 0000-0002-02
 
 Name: Abhishek Dasgupta , email: abhishek.dasgupta@dtc.ox.ac.uk , ORCID: 0000-0003-4420-0656, Institution: University of Oxford, Country: United Kingdom, Job title: Senior Research Software Engineer
 
-Name: Frances Turner, email: Frances.Hutchings@newcastle.ac.uk, ORCID: , Institution: Newcastle University, Country, United Kingdom, Job title: Research Software Engineer
+Name: Frances Turner, email: Frances.Hutchings@newcastle.ac.uk, ORCID: 0000-0003-3255-6962, Institution: Newcastle University, Country, United Kingdom, Job title: Research Software Engineer
 
 ## Ideas for a hackathon
 
