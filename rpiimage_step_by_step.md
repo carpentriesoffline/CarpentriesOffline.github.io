@@ -9,7 +9,7 @@ title: "Creating an SD card imgae: step-by-step"
 
 - Using the Raspberry Pi imager, create an SD card with the Raspberry Pi OS lite image. Configure the image to connect to your local access point and create a user with a password. Username: `carpentries`, `Password: carpentries`
 
-```
+```bash
 ssh into the Pi
 sudo apt-get update -y
 sudo apt-get upgrade -y
@@ -17,12 +17,12 @@ sudo apt-get install git -y
 ```
 
 ### Clone the repository
-```
+```bash
 git clone https://github.com/carpentriesoffline/carpentriesoffline-installer.git
 ```
 
 ### Setting up the Web Server
-```
+```bash
 # Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html 
 # because RaspAP will be using port 80 and /var/www/html
 sudo cp -r carpentriesoffline-install/html/. /var/www/html/
@@ -34,7 +34,7 @@ sudo restart apache2
 ```
 
 ### Set up content
-```
+```bash
 apt install -y python3-pip r-base-core python3-lxml libssl-dev r-cran-curl
 pip3 install git+https://git@github.com/carpentriesoffline/offlinedatasci.git
 cd ~
@@ -48,7 +48,7 @@ sudo mv ~/html/* /var/www/apache_html.
 
 ### Set up Gitea
 
-```
+```bash
 latest_gitea="1.19.1"
 arch=$(lscpu | grep "^Arch" | awk '{print $2}' | sed 's/i[0-9]86/386/' | sed 's/armv[0-9]l/arm-6/' | \
 	sed 's/x86_64/amd64/' | sed 's/aarch64/arm-6/' )
@@ -79,12 +79,12 @@ systemctl start gitea
 ```
 
 ### Set up Access Point
-```
+```bash
 curl -sL https://install.raspap.com | bash -s -- --yes
 ```
 
 ### Setup up MiniCRAN
-```
+```bash
 sudo apt install -y r-base-core libssl-dev r-cran-curl r-cran-httr
 sudo mkdir /var/www/html/MiniCRAN
 sudo R --no-save < carpentriesoffline-installer/install/minicran.R

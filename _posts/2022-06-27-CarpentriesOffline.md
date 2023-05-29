@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jannetta
-category: SSI CarpentriesOffline
+category: CarpentriesOffline
 title: CarpentriesOffline - Running Software/Data and Library Carpentries workshops offline
 tags: SSI, Raspberry Pi, CarpentriesOffline
 ---

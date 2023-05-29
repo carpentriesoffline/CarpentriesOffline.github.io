@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  padding-bottom: 15px;
   vertical-align: middle;
   font-family: arial;
   font-size: 14px;
@@ -21,6 +22,10 @@ h1 {
 h2 {
   color:  #e74c3c ;
   text-align: center;
+}
+
+code {
+	color: #212529;
 }
 
 .header {
@@ -110,7 +115,7 @@ h2 {
 	float:right;
 	border: 3px solid #071159;
 	width: 250px;
-	height: 100vh;
+	height: 300px;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 0 0 0 10px;
@@ -121,10 +126,32 @@ h2 {
 }
 
 .highlight {
-	background: #CCCCCC;
+	background: #F8F9F9;
 	border: 1px;
 	margin: 5px;
 	padding: 5px;
 	border-radius: 10px;
 }
 
+.highlighter-rouge {
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+	color: #D63384;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+}
+
+.nb {
+	color: #AD0000;
+}
+
+.nt {
+	color: blue;
+}
+
+.c {
+	color: green;
+}
+
+div.language-bash.highlighter-rouge {
+	border: 0;
+}
