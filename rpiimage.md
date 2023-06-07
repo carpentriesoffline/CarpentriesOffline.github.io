@@ -4,7 +4,7 @@ title: SD Card Image for Raspberry Pi
 ---
 
 <div style="text-align:center; padding: 20px; font-size: 16px; font-weight: bold;">
-<img style="transform:rotate(270deg); border-radius: 20px;" src="images/sd_card.png" width="150px">
+<img style="border-radius: 20px;" src="images/CarpentriesOfflinePhoto.jpg" width="300px">
 </div>
 
 {% include sidebar.md %}
