@@ -1,23 +1,30 @@
-html {
- display: table; 
- width: 1024px;
- margin: auto;
- vertical-align: baseline;
-}
-
 body {
-  padding-bottom: 15px;
-  vertical-align: middle;
-  font-family: arial;
+  padding: 10px;
+  margin: auto;
+  font-family: sans-serif;
   font-size: 14px;
-  width: 1024px;
+  color: black;
+  max-width: 900px;
   height: 100vh;
   text-align: justify;
 }
 
+a {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.article {
+  padding-bottom: 20px;
+}
 h1 {
   color:  #e74c3c ;
 }
+
+h1.entry-title a { text-decoration: none; }
 
 h2 {
   color:  #e74c3c ;
@@ -34,7 +41,27 @@ code {
 
 .buttons {
 	text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.buttons a.btn-primary {
+  background-color: #0A145B;
+}
+
+.buttons a.btn-primary:visited {
+  color: white
+}
+
+.buttons a.btn-secondary {
+  background-color: #550000;
+}
+
+.buttons a.btn-secondary:visited {
+  color: white
+}
+
+
 
 .button_blue:hover {
   background-color: #444444;
@@ -102,7 +129,7 @@ code {
 	height: 40px;
 	align-items: center;
 	border-radius: 10px 10px 0px 0px;
-	background: white;
+	background: #DDDDDD;
 	font-size: 16px;
 	font-weight: bold;
   display: flex;
