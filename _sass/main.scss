@@ -115,11 +115,19 @@ code {
 	justify-content: center;
 }
 
+.main {
+	display: flex;
+}
+
+.floatleft {
+	float: left;
+	flex: 3;
+}
+
 .floatright {
-	float:right;
 	border: 3px solid #071159;
-	width: 250px;
-	// height: 300px;
+	float: right;
+	flex: 1;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 0 0 0 10px;
