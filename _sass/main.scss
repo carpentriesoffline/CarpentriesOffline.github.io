@@ -40,13 +40,22 @@ code {
 }
 
 .buttons {
-	text-align: center;
+    max-width: 800px;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .buttons a.btn-primary {
   background-color: #0A145B;
+}
+
+.buttons a.btn-primary:hover {
+  background-color: blue;
+}
+
+.buttons a.btn-light {
+  min-width: 120px;
 }
 
 .buttons a.btn-primary:visited {
