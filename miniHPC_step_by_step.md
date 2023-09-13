@@ -19,13 +19,33 @@ sudo apt-get full-upgrade
 
 ```bash
 sudo apt-get install -y nfs-kernel-server lmod ansible slurm munge nmap \ 
-nfs-common net-tools build-essential htop net-tools screen vim python3-pip
+nfs-common net-tools build-essential htop net-tools screen vim python3-pip \
+dnsmasq
 ```
 
 - Modify the hostname
 
 ```bash
 echo pixie001 | sudo tee -a /etc/hostname
+```
+
+- Configure dhcp by entering the following in the file `/etc/dhcpd.conf`
+
+```bash
+interface eth0
+static ip_address=192.168.0.1/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+```
+
+- Configure dnsmasq by entering the following in the file `/etc/dnsmasq.conf`
+
+```bash
+interface=eth0
+bind-dynamic
+domain-needed
+bogus-priv
+dhcp-range=192.168.0.1,192.168.0.100,255.255.255.0,12h
 ```
 
 - Install EasyBuild
