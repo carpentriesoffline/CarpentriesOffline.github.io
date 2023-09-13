@@ -22,6 +22,12 @@ sudo apt-get install -y nfs-kernel-server lmod ansible slurm munge \
 nfs-common net-tools build-essential htop net-tools screen vim python3-pip
 ```
 
+- Modify the hostname
+
+```bash
+echo pixie001 | sudo tee -a /etc/hostname
+```
+
 - Install EasyBuild
 ```bash
 python -m pip install easybuild
