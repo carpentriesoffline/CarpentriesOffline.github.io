@@ -48,6 +48,13 @@ bogus-priv
 dhcp-range=192.168.0.1,192.168.0.100,255.255.255.0,12h
 ```
 
+- Configure shared drives by addeding the following at the end of the file /etc/exports
+
+```bash
+/sharedfs    192.168.0.0/24(rw,sync,no_root_squash,no_subtree_check)
+/modules     192.168.0.0/24(rw,sync,no_root_squash,no_subtree_check)
+```
+
 - Install EasyBuild
 ```bash
 python -m pip install easybuild
