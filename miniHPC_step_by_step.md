@@ -48,12 +48,29 @@ bogus-priv
 dhcp-range=192.168.0.1,192.168.0.100,255.255.255.0,12h
 ```
 
-- Configure shared drives by addeding the following at the end of the file /etc/exports
+- Configure shared drives by addeding the following at the end of the file `/etc/exports`
 
 ```bash
 /sharedfs    192.168.0.0/24(rw,sync,no_root_squash,no_subtree_check)
 /modules     192.168.0.0/24(rw,sync,no_root_squash,no_subtree_check)
 ```
+
+- The `/etc/hosts` file should contain the following:
+
+```bash
+127.0.0.1	localhost
+::1		localhost ip6-localhost ip6-loopback
+ff02::1		ip6-allnodes
+ff02::2		ip6-allrouters
+
+127.0.1.1	pixie001
+
+192.168.0.2	pixie002
+192.168.0.3	pixie003
+192.168.0.4	pixie004
+192.168.0.5	pixie005
+```
+
 
 - Install EasyBuild
 ```bash
