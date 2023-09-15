@@ -20,7 +20,7 @@ sudo apt-get full-upgrade
 ```bash
 sudo apt-get install -y nfs-kernel-server lmod ansible slurm munge nmap \ 
 nfs-common net-tools build-essential htop net-tools screen vim python3-pip \
-dnsmasq
+dnsmasq slurm-wlm
 ```
 
 - Modify the hostname
