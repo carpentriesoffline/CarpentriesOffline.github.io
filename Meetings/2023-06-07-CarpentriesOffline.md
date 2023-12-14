@@ -1,4 +1,4 @@
-# Carpentries Offline Community Meeting #22
+# Carpentries Offline Community Meeting 22
 ## Date: 2023-06-07
 
 ## GitHub Repository
