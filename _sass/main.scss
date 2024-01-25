@@ -1,17 +1,16 @@
 html {
  display: table; 
- width: 1024px;
  margin: auto;
  vertical-align: baseline;
 }
 
 body {
+  padding: 5px;
   padding-bottom: 15px;
   vertical-align: middle;
   font-family: arial;
-  font-size: 14px;
-  width: 1024px;
-  height: 100vh;
+  font-size: 16px;
+  max-width: 1020px;
   text-align: justify;
 }
 
@@ -77,9 +76,10 @@ code {
 }
 
 .container {
-  height: 200px;
   transition: 500ms;
-  display: grid;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3px;
 }
@@ -87,6 +87,7 @@ code {
 .item {
   border-radius: 10px;
   border: 3px solid #071159;
+  flex: 1 1 0px;
   background: #DDDDDD;
   transition: 300ms;
 }
