@@ -11,9 +11,11 @@ You can download a pre-built image from our releases page https://github.com/car
 
 These are experimental and unlikely to be fully working yet. These are built as multipart zip files with names like release.zip and release.z01, this is due to a 2GB upload limit in our build process. Download each of these. To extract them on a Linux system run the following:
 
+```
 cat release.z01 release.zip > carpentries-offline.zip
 
 unzip carpentries-offline.zip
+```
 
 After you have downloaded and unzipped the image files, write the image file to an SD card with Etcher or your image writing program of choice.
 
@@ -46,18 +48,20 @@ Use SSH or login with a local console if you have a monitor attached.
 
 #### Run the install script
 * Login to your Raspberry Pi with an SSH client or on a local screen/keyboard and run the command:
-* curl https://raw.githubusercontent.com/carpentriesoffline/carpentriesoffline-installer/main/setup.sh > setup.sh && bash ./setup.sh
+* ```curl https://raw.githubusercontent.com/carpentriesoffline/carpentriesoffline-installer/main/setup.sh > setup.sh && bash ./setup.sh```
 
 #### Change the password
-* Run the passwd command. Leaving the default password will mean anybody in your workshop can login to your Pi and change settings on it.
+* Run the `passwd` command. Leaving the default password will mean anybody in your workshop can login to your Pi and change settings on it.
 
 #### Connect to Carpentries Offline
 * After installing the Raspberry Pi will reboot.
 * It will then switch the WiFi interface to access point mode and will be available as a network called carpentries-offline.
 * Connect to the carpentries-offline WiFi network
-* Visting http://carpentriesoffline.org or http://192.168.1.1
+* Visting [http://carpentriesoffline.org] or [http://192.168.1.1]
 * You should get links to the Carpentries Lessons and the Gitea server on the Raspberry Pi
 
 #### Using PyPi and CRAN mirrors from your Pi
-* These are downloaded to the Pi and placed in http://192.168.1.1/pypi and http://192.168.1.1/miniCRAN.
+* These are downloaded to the Pi and placed in [http://192.168.1.1/pypi] and [http://192.168.1.1/miniCRAN].
+* You will need to update your settings to use these locations. (TODO: write instructions on how to do this)
+
 
