@@ -5,90 +5,59 @@ title: "Creating an SD card imgae: step-by-step"
 
 <h2>Creating an SD card image: step-by-step</h2>
 
-###  Setting up raspberry Pi
+### Using a pre-built image
 
-- Using the Raspberry Pi imager, create an SD card with the Raspberry Pi OS lite image. Configure the image to connect to your local access point and create a user with a password. Username: `carpentries`, `Password: carpentries`
+You can download a pre-built image from our releases page https://github.com/carpentriesoffline/carpentriesoffline-installer/releases
 
-```bash
-ssh into the Pi
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install git -y 
+These are experimental and unlikely to be fully working yet. These are built as multipart zip files with names like release.zip and release.z01, this is due to a 2GB upload limit in our build process. Download each of these. To extract them on a Linux system run the following:
+
+cat release.z01 release.zip > carpentries-offline.zip
+
+unzip carpentries-offline.zip
+
+After you have downloaded and unzipped the image files, write the image file to an SD card with Etcher or your image writing program of choice.
+
+### Installing CarpentriesOffline manually
+
+####  Setting up a Raspberry Pi
+
+* Download Raspbian OS Lite: https://www.raspberrypi.org/software/operating-systems/
+* Write image to SD card using rpi-imager: https://www.raspberrypi.org/software/
+
+#### Setup for headless config (useful if you don't have a screen and keyboard to hand)
+* In the boot (small FAT32) partition on the SD card create an empty file called "ssh"
+* If you're using WiFi to get access to the Pi, create a file called wpa_supplicant.conf in the boot partition. Paste in the following and set your network SSID and password appropriately.
+
+```
+#set this to your country code, gb=great britain
+country=gb
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
+
+network={
+ scan_ssid=1
+ ssid="my_networks_ssid"
+ psk="my_networks_password"
+}
 ```
 
-### Clone the repository
-```bash
-git clone https://github.com/carpentriesoffline/carpentriesoffline-installer.git
-```
+#### Login to the Pi
+Use SSH or login with a local console if you have a monitor attached.
 
-### Setting up the Web Server
-```bash
-# Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html 
-# because RaspAP will be using port 80 and /var/www/html
-sudo cp -r carpentriesoffline-install/html/. /var/www/html/
-sudo apt-get install apache2 -y
-sudo cp carpentriesoffline-installer/ApacheConfFiles/apache2.conf /etc/apache2/
-sudo cp -r carpentriesoffline-installer/html. /var/www/html
-sudo a2enmod include
-sudo restart apache2
-```
+#### Run the install script
+* Login to your Raspberry Pi with an SSH client or on a local screen/keyboard and run the command:
+* curl https://raw.githubusercontent.com/carpentriesoffline/carpentriesoffline-installer/main/setup.sh > setup.sh && bash ./setup.sh
 
-### Set up content
-```bash
-apt install -y python3-pip r-base-core python3-lxml libssl-dev r-cran-curl
-pip3 install git+https://git@github.com/carpentriesoffline/offlinedatasci.git
-cd ~
-mkdir html
-cd html
-/home/carpentries/.local/bin/offlinedatasci install all .
-# Here is still a problem - apache needs to be reconfigured to use port 8080 and directory /var/www/apache_html 
-# because RaspAP will be using port 80 and /var/www/html
-sudo mv ~/html/* /var/www/apache_html.
-```
+#### Change the password
+* Run the passwd command. Leaving the default password will mean anybody in your workshop can login to your Pi and change settings on it.
 
-### Set up Gitea
+#### Connect to Carpentries Offline
+* After installing the Raspberry Pi will reboot.
+* It will then switch the WiFi interface to access point mode and will be available as a network called carpentries-offline.
+* Connect to the carpentries-offline WiFi network
+* Visting http://carpentriesoffline.org or http://192.168.1.1
+* You should get links to the Carpentries Lessons and the Gitea server on the Raspberry Pi
 
-```bash
-latest_gitea="1.19.1"
-arch=$(lscpu | grep "^Arch" | awk '{print $2}' | sed 's/i[0-9]86/386/' | sed 's/armv[0-9]l/arm-6/' | \
-	sed 's/x86_64/amd64/' | sed 's/aarch64/arm-6/' )
-sudo wget https://dl.gitea.io/gitea/$latest_gitea/gitea-$latest_gitea-linux-$arch -O /usr/local/bin/gitea
-chmod +x /usr/local/bin/gitea
-adduser \
-   --system \
-   --shell /bin/bash \
-   --gecos 'Git Version Control' \
-   --group \
-   --disabled-password \
-   --home /home/git \
-   git
-
-sudo mkdir -p /var/lib/gitea/{custom,data,log}
-sudo chown -R git:git /var/lib/gitea/
-sudo chmod -R 750 /var/lib/gitea/
-sudo mkdir /etc/gitea
-sudo chown root:git /etc/gitea
-sudo chmod 770 /etc/gitea
-sudo sudo cp carpentriesoffline-installer/installer/gitea/app.ini /etc/gitea/app.ini
-sudo chown git:git /etc/gitea/app.ini
-
-wget https://raw.githubusercontent.com/go-gitea/gitea/main/contrib/systemd/gitea.service \
-	-O /etc/systemd/system/gitea.service
-systemctl enable gitea
-systemctl start gitea
-```
-
-### Set up Access Point
-```bash
-curl -sL https://install.raspap.com | bash -s -- --yes
-```
-
-### Setup up MiniCRAN
-```bash
-sudo apt install -y r-base-core libssl-dev r-cran-curl r-cran-httr
-sudo mkdir /var/www/html/MiniCRAN
-sudo R --no-save < carpentriesoffline-installer/install/minicran.R
-```
-
-### Reboot
+#### Using PyPi and CRAN mirrors from your Pi
+* These are downloaded to the Pi and placed in http://192.168.1.1/pypi and http://192.168.1.1/miniCRAN.
 
