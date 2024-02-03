@@ -7,7 +7,7 @@ title: "Creating an SD card imgae: step-by-step"
 
 ### Using a pre-built image
 
-You can download a pre-built image from our releases page https://github.com/carpentriesoffline/carpentriesoffline-installer/releases
+You can download a pre-built image from our [releases page](https://github.com/carpentriesoffline/carpentriesoffline-installer/releases)
 
 These are experimental and unlikely to be fully working yet. These are built as multipart zip files with names like release.zip and release.z01, this is due to a 2GB upload limit in our build process. Download each of these. To extract them on a Linux system run the following:
 
@@ -57,11 +57,11 @@ Use SSH or login with a local console if you have a monitor attached.
 * After installing the Raspberry Pi will reboot.
 * It will then switch the WiFi interface to access point mode and will be available as a network called carpentries-offline.
 * Connect to the carpentries-offline WiFi network
-* Visting [http://carpentriesoffline.org] or [http://192.168.1.1]
+* Visting [http://carpentriesoffline.org](http://carpentries.org) or [http://192.168.1.1](http://192.168.1.1)
 * You should get links to the Carpentries Lessons and the Gitea server on the Raspberry Pi
 
 #### Using PyPi and CRAN mirrors from your Pi
-* These are downloaded to the Pi and placed in [http://192.168.1.1/pypi] and [http://192.168.1.1/miniCRAN].
+* These are downloaded to the Pi and placed in [http://192.168.1.1/pypi](http://192.168.1.1/pypi) and [http://192.168.1.1/miniCRAN](http://192.168.1.1/miniCRAN).
 * You will need to update your settings to use these locations. (TODO: write instructions on how to do this)
 
 
