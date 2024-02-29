@@ -1,10 +1,10 @@
 <div class="buttons">
   {% for item in site.data.navigation %}
-    <button onclick="window.location.href='{{ site.baseurl }}{{ item.link }}'" 
-		{% if item.link=="/" %}class="button button_white"
-		{% elsif page.url==item.link %}class="button button_red"
-		{% else %}class="button button_blue"
-		{% endif %}>{{ item.name }}</button>
+    <a href="{{ site.baseurl }}{{ item.link }}"
+		{% if item.link=="/" %}class="btn btn-light"
+		{% elsif page.url==item.link %}class="btn btn-secondary"
+		{% else %}class="btn btn-primary"
+		{% endif %}>{{ item.name }}</a>
   {% endfor %}
 <br>
 

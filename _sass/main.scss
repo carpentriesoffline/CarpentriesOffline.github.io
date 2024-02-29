@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
  display: table; 
  margin: auto;
@@ -5,18 +6,33 @@ html {
 }
 
 body {
-  padding: 5px;
-  padding-bottom: 15px;
   vertical-align: middle;
-  font-family: arial;
-  font-size: 16px;
-  max-width: 1020px;
+  padding: 10px;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: black;
+  max-width: 900px;
+  height: 100vh;
   text-align: justify;
 }
 
+a {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.article {
+  padding-bottom: 20px;
+}
 h1 {
   color:  #e74c3c ;
 }
+
+h1.entry-title a { text-decoration: none; }
 
 h2 {
   color:  #e74c3c ;
@@ -32,8 +48,37 @@ code {
 }
 
 .buttons {
-	text-align: center;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.buttons a.btn-primary {
+  background-color: #0A145B;
+}
+
+.buttons a.btn-primary:hover {
+  background-color: blue;
+}
+
+.buttons a.btn-light {
+  min-width: 120px;
+}
+
+.buttons a.btn-primary:visited {
+  color: white
+}
+
+.buttons a.btn-secondary {
+  background-color: #550000;
+}
+
+.buttons a.btn-secondary:visited {
+  color: white
+}
+
+
 
 .button_blue:hover {
   background-color: #444444;
@@ -103,7 +148,7 @@ code {
 	height: 40px;
 	align-items: center;
 	border-radius: 10px 10px 0px 0px;
-	background: white;
+	background: #DDDDDD;
 	font-size: 16px;
 	font-weight: bold;
   display: flex;
