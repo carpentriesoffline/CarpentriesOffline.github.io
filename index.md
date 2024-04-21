@@ -15,8 +15,8 @@ We would not want to see the RPi idea go to waste as we still believe it will pr
 
 There are now three threads of development for CarpentriesOffline, 1) The Raspberry Pi SD card image, 2) The bootable flashdrive and 3) a mini HPC.
 
-<div class="container">
-	<div class="item blue">
+<div class="row">
+	<div class="item blue col-md-4">
 		<div class="colhead">
 			Raspberry Pi SD card image
 		</div>
@@ -24,7 +24,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			<a href="rpiimage"><img src="images/sd_card-150px.jpg" height="150px"></a>
 		</div>
 	</div>
-	<div class="item red">
+	<div class="item red col-md-4">
 		<div class="colhead">
 			Bootable Flash Drive
 		</div>
@@ -32,7 +32,7 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 			<a href="flashDrive"><img src="images/FlashDrive-150px.jpg" height="150px"></a>
 		</div>
 	</div>
-	<div class="item blue">
+	<div class="item blue col-md-4">
 		<div class="colhead">
 			<a href="miniHPC">mini HPC</a>
 		</div>

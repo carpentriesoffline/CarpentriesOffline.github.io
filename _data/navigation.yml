@@ -4,7 +4,7 @@
   link: /blog.html
 - name: Contact Us
   link: /contactus.html
-- name: <img src="images/OFFLINE.svg" width="60px">
+- name: <img src="/images/OFFLINE.svg" width="60px">
   link: /
 - name: RPi Image
   link: /rpiimage.html
@@ -12,3 +12,5 @@
   link: /flashdrive.html
 - name: mini HPC
   link: /miniHPC.html
+- name: Resources
+  link: /resources.html

@@ -3,6 +3,8 @@ layout: page
 title: Contact Us
 ---
 
+CarpentriesOffline has a channel in the Carpentries Slack Workspace. You can join the Carpentries workspace using this link: https://slack-invite.carpentries.org/
+
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xnqypdwj" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>

@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jannetta
-category: SSI CarpentriesOffline
+category: CarpentriesOffline
 title: CarpentriesOffline - CarpentryCon 2022 feedback and call for help
 tags: SSI, Raspberry Pi, CarpentriesOffline
 ---

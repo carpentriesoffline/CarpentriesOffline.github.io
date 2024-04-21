@@ -2,8 +2,10 @@
 layout: static
 title: Current Unknowns and Testing
 ---
-<div>
-<h3>Current Unknowns and Testing</h3>
+
+<div class="main">
+<div class="floatleft">
+<h2>Current Unknowns and Testing</h2>
 We need to test this system prior to using it in a workshop with learners. It may also be sensible to use it initially with a backup option of learners having accounts on an existing HPC system in case of failures. Current questions we have include:
 	
 <ol>
@@ -16,4 +18,5 @@ We need to test this system prior to using it in a workshop with learners. It ma
 </ol>
 
 </div>
-
+{% include sidebar.md %}
+</div>

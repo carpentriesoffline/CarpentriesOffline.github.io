@@ -1,26 +1,45 @@
 html {
  display: table; 
- width: 1024px;
  margin: auto;
  vertical-align: baseline;
 }
 
 body {
   vertical-align: middle;
-  font-family: arial;
+  padding: 10px;
+  margin: auto;
+  font-family: sans-serif;
   font-size: 14px;
-  width: 1024px;
+  color: black;
+  max-width: 900px;
   height: 100vh;
   text-align: justify;
 }
 
+a {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+.article {
+  padding-bottom: 20px;
+}
 h1 {
   color:  #e74c3c ;
 }
 
+h1.entry-title a { text-decoration: none; }
+
 h2 {
   color:  #e74c3c ;
   text-align: center;
+}
+
+code {
+	color: #212529;
 }
 
 .header {
@@ -28,8 +47,37 @@ h2 {
 }
 
 .buttons {
-	text-align: center;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.buttons a.btn-primary {
+  background-color: #0A145B;
+}
+
+.buttons a.btn-primary:hover {
+  background-color: blue;
+}
+
+.buttons a.btn-light {
+  min-width: 120px;
+}
+
+.buttons a.btn-primary:visited {
+  color: white
+}
+
+.buttons a.btn-secondary {
+  background-color: #550000;
+}
+
+.buttons a.btn-secondary:visited {
+  color: white
+}
+
+
 
 .button_blue:hover {
   background-color: #444444;
@@ -51,6 +99,10 @@ h2 {
   background-color: #FFFFFF;
 }
 
+.button_white:hover {
+  border: 3px solid #ff8080;
+}
+
 .button {
   width: 130px;
   color: white;
@@ -68,9 +120,10 @@ h2 {
 }
 
 .container {
-  height: 200px;
   transition: 500ms;
-  display: grid;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 3px;
 }
@@ -78,6 +131,7 @@ h2 {
 .item {
   border-radius: 10px;
   border: 3px solid #071159;
+  flex: 1 1 0px;
   background: #DDDDDD;
   transition: 300ms;
 }
@@ -93,7 +147,7 @@ h2 {
 	height: 40px;
 	align-items: center;
 	border-radius: 10px 10px 0px 0px;
-	background: white;
+	background: #DDDDDD;
 	font-size: 16px;
 	font-weight: bold;
   display: flex;
@@ -106,11 +160,19 @@ h2 {
 	justify-content: center;
 }
 
+.main {
+	display: flex;
+}
+
+.floatleft {
+	float: left;
+	flex: 3;
+}
+
 .floatright {
-	float:right;
 	border: 3px solid #071159;
-	width: 250px;
-	height: 100vh;
+	float: right;
+	flex: 1;
 	border-radius: 10px;
 	padding: 10px;
 	margin: 0 0 0 10px;
@@ -121,9 +183,32 @@ h2 {
 }
 
 .highlight {
-	background: #CCCCCC;
+	background: #F8F9F9;
 	border: 1px;
 	margin: 5px;
 	padding: 5px;
 	border-radius: 10px;
+}
+
+.highlighter-rouge {
+	font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+	color: #D63384;
+	font-size: 14px;
+	border: 1px solid #cccccc;
+}
+
+.nb {
+	color: #AD0000;
+}
+
+.nt {
+	color: blue;
+}
+
+.c {
+	color: green;
+}
+
+div.language-bash.highlighter-rouge {
+	border: 0;
 }

@@ -1,7 +1,7 @@
 ---
 layout: post
 author: jannetta
-category: SSI CarpentriesOffline
+categories: CarpentriesOffline
 title: CarpentriesOffline - Testing CarpentriesOffline
 tags: SSI, Raspberry Pi, CarpentriesOffline
 ---

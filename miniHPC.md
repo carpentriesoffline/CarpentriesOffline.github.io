@@ -7,10 +7,10 @@ title: Building a mini HPC
 <div style="padding: 20px;">Meet Pixie. Our first prototype.</div>
 <img style="border-radius: 20px;" src="images/mini-HPC-proto1-600px.jpg" width="600px">
 </div>
-{% include sidebar.md %}
 <div>
 <h2>What?</h2>
-Pixie is our prototype High Performance Computer (HPC), built with:
+{% include sidebar.md %}
+<p>Pixie is our prototype High Performance Computer (HPC), built with:</p>
 
 <ul>
 	<li>Raspberry Pi (RPi) 4 2GB single board computers (SBC).</li>
@@ -43,3 +43,6 @@ Many people have built Raspberry Pi HPCs, why do we want to include this as part
 
 HPCs are not easy to set up. Many document their processes but it still requires quite a lot of expertise to set up. What we would like to do is to create images of the SD cards required to boot the RPis and/or Rock Pis straight into an HPC. Instructors should be able to obtain specified hardware and know how to connect everything, write the OS image to an SD card or SSD and boot the computer into a usable HPC state.
 
+<p><a href="current_unknowns_and_testing">Current Unknowns and Testing</a></p>
+<br/>
+<br/>

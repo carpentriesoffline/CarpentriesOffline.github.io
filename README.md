@@ -1,6 +1,6 @@
 <img src="images/OFFLINE_a.png" width="200px"> 
 
-# About Carpentries Offline
+# About CarpentriesOffline
 
 (Previously known as CarpenPi)
 

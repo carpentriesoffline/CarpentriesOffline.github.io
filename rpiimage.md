@@ -3,6 +3,12 @@ layout: static
 title: SD Card Image for Raspberry Pi 
 ---
 
+<div style="text-align:center; padding: 20px; font-size: 16px; font-weight: bold;">
+<img style="border-radius: 20px;" src="images/CarpentriesOfflinePhoto.jpg" width="300px">
+</div>
+
+{% include sidebar.md %}
+
 For the last year we have been working on creating an image that can be written to an SD card which is then used to boot a Raspberry Pi (RPi). The SD card turns the RPi into:
 
 - an access point for learners to connect to with their computers, 
