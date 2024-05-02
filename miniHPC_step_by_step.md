@@ -72,9 +72,14 @@ ff02::2		ip6-allrouters
 ```
 
 
-- Install EasyBuild
-```bash
-python -m pip install easybuild
+- Install ESSI
+- 
+```
+mkdir essi
+cd essi
+wget https://raw.githubusercontent.com/EESSI/eessi-demo/main/scripts/install_cvmfs_eessi.sh
+sudo bash ./install_cvmfs_eessi.sh
+echo "source /cvmfs/software.eessi.io/versions/2023.06/init/bash" >> /etc/profile
 ```
 
 - Create a shared directory
