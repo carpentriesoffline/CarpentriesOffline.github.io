@@ -23,6 +23,26 @@ nfs-common net-tools build-essential htop net-tools screen vim python3-pip \
 dnsmasq slurm-wlm
 ```
 
+
+- Setup the network
+
+Place the following into /etc/network/interfaces
+
+```
+auto eth0
+allow-hotplug eth0
+iface eth0 inet static
+  address 192.168.5.101
+  netmask 255.255.255.0
+source /etc/network/interfaces.d/*
+```  
+
+- Setup the WiFi
+
+If you want to connect to the internet 
+Run `sudo raspi-config`, go to System Options, Wireless LAN and enter your SSID and password.
+
+
 - Modify the hostname
 
 ```bash
