@@ -106,6 +106,6 @@ echo "source /cvmfs/software.eessi.io/versions/2023.06/init/bash" | sudo tee -a 
 
 ```bash
 sudo mkdir /sharedfs
-sudo chown nobody.nogroup -R /sharedfs
+sudo chown nobody:nogroup -R /sharedfs
 sudo chmod 777 -R /sharedfs
 ```
