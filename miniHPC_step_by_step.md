@@ -11,8 +11,8 @@ title: "Setting up the miniHPC login node"
 - Do an update and a full-upgrade:
 
 ```bash
-sudo apt-get update
-sudo apt-get full-upgrade
+sudo apt-get -y update
+sudo apt-get -y full-upgrade
 ```
 
 - Install the following packages:
