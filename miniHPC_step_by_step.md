@@ -93,7 +93,7 @@ ff02::2		ip6-allrouters
 
 
 - Install ESSI
-- 
+
 ```
 mkdir essi
 cd essi
