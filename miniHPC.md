@@ -3,8 +3,6 @@ layout: static
 title: Building a mini HPC
 ---
 
-See our [updated version](miniHPC_update).
-
 <div style="text-align:center; padding: 20px; font-size: 16px; font-weight: bold;">
 <div style="padding: 20px;">Meet Pixie. Our first prototype.</div>
 <img style="border-radius: 20px;" src="images/mini-HPC-proto1-600px.jpg" width="600px">
@@ -12,6 +10,9 @@ See our [updated version](miniHPC_update).
 <div>
 <h2>What?</h2>
 {% include sidebar.md %}
+
+**See our [updated version](miniHPC_update).**
+ 
 <p>Pixie is our prototype High Performance Computer (HPC), built with:</p>
 
 <ul>
