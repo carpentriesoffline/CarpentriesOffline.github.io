@@ -41,3 +41,8 @@ There are now three threads of development for CarpentriesOffline, 1) The Raspbe
 		</div>
 	</div>
 </div>
+
+<center>
+	This project was made possible by the Software Sustainabiliy Institute<br/>
+ <a href="https://www.software.ac.uk/fellowship-programme/jannetta-steyn"><img src="images/SSI_PRIMARY-LOGO.svg"></a>
+</center>
