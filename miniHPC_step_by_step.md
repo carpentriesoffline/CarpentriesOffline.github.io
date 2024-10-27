@@ -109,3 +109,16 @@ sudo mkdir /sharedfs
 sudo chown nobody:nogroup -R /sharedfs
 sudo chmod 777 -R /sharedfs
 ```
+
+- configure slurm
+    - slurm.conf
+
+- configure cgroup
+    - cgroup.conf
+    - cgroup_allowed_device_file.conf
+
+- configure munge
+    - munge.key
+
+- disable wifi in compute nodes
+    - /boot/firmware/config.txt
