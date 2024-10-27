@@ -10,6 +10,10 @@ title: Building a mini HPC
 <div>
 <h2>What?</h2>
 {% include sidebar.md %}
+
+
+<p><b>See our <a href="miniHPC_update.html">updated version</a>.</b></p>
+ 
 <p>Pixie is our prototype High Performance Computer (HPC), built with:</p>
 
 <ul>
