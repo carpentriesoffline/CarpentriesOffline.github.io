@@ -35,26 +35,26 @@ When using the The Raspberry Pi Imager, select the Device and OS.
 
 The OS selection should be `Raspberry Pi OS (other)` -> `Raspberry Pi OS Lite (64-bit)`.
 
-![image alt >](../images/screenshots/imager-hero-shot.png)
+![image alt >](images/screenshots/imager-hero-shot.png)
 
 Selecting the device:
 
-![image alt >](../images/screenshots/imager-device-selection.png)
+![image alt >](images/screenshots/imager-device-selection.png)
 
 
 Selecting the OS:
 
-![](../images/screenshots/imager-OS-selection-1.png)
+![](images/screenshots/imager-OS-selection-1.png)
 
-![](../images/screenshots/imager-OS-selection-2.png)
+![](images/screenshots/imager-OS-selection-2.png)
 
 After this, please select the sdcard you would like to flash the image on, Then press `NEXT`.
 
-![](../images/screenshots/imager-sd-card-selection.png)
+![](images/screenshots/imager-sd-card-selection.png)
 
 it will ask if the user wants to do any customisation, select `EDIT SETTINGS`.
 
-![](../images/screenshots/imager-customiser-dialog.png)
+![](images/screenshots/imager-customiser-dialog.png)
 
 This will show a pop-up window where the following configuration options can be defined for your set-up (below are examples) such that your OS is pre-configured upon first boot.
 
@@ -63,22 +63,22 @@ This will show a pop-up window where the following configuration options can be 
 1. Password: `*****`
 1. WiFI SSID and Password: Enter your WiFi details
 
-![](../images/screenshots/imager-os-config.png)
+![](images/screenshots/imager-os-config.png)
 
 Then go to the `SERVICES` tab and enable SSH with password authentication (alternatively, adding a ssh public key). If you would like to set up easy access to the Pi via an ssh key, please see [here](ssh-setup.md).
 
 _TODO: Section on generating an ssh key-pair._
 
-![](../images/screenshots/imager-pwd-setup.png)
+![](images/screenshots/imager-pwd-setup.png)
 
 
 After, saving this, select `YES` to apply the configuration.
 
-![](../images/screenshots/imager-os-config-apply.png)
+![](images/screenshots/imager-os-config-apply.png)
 
 Confim writing to the sdcard (please backup any data on the sdcard, any existing data will be **LOST!**)
 
-![](../images/screenshots/imager-confirm-sdcard-write.png)
+![](images/screenshots/imager-confirm-sdcard-write.png)
 
 # Installing SLURM/HPC
 
@@ -265,12 +265,12 @@ cd pxe-boot
 
 Initalise a PXE node:
 ```
-./pxe-add <serial number> ../node.img <IP address>  <node name> <mac address>
+./pxe-add <serial number> node.img <IP address>  <node name> <mac address>
 ```
 
 for example:
 ```
-./pxe-add fa917c3a ../node.img 192.168.5.105 pixie002 dc:a6:32:af:83:d0
+./pxe-add fa917c3a node.img 192.168.5.105 pixie002 dc:a6:32:af:83:d0
 ```
 
 This will create an entry with the serial number in /pxe-boot and /pxe-root. 
