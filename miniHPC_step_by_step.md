@@ -255,6 +255,48 @@ dd if=/dev/mmcblk0 of=node.img
 
 - Setup PXE booting
 
+To use eessi with PXE it is necessary to create a loop device for each node in the shared filesystem and then 
+mount it on /var/lib/cvmfs. 
+
+Creating a loop device:
+```bash
+dd if=/dev/mmcblk0 of=node.img bs=4M count=5120
+sudo parted -s /dev/loop0
+sudo parted -s /dev/loop0 mklabel msdos
+sudo parted -s /dev/loop0 mkpart primary
+sudo mkfs.ext4 /dev/loop0
+```
+Create a script that can be run by systemd on bootup. In /usr/local/bin/cvfms-startup.sh enter:
+```
+#!/bin/bash
+
+/usr/sbin/losetup /dev/loop0 /sharedfs/loopdevices/${HOSTNAME}
+/bin/mount /dev/loop0 /var/lib/cvmfs
+```
+
+Create the following systemd service script in /etc/systemd/system/cvfms.service:
+```
+[Unit]
+Description=Setup Loop Device and Mount Shared Filesystem
+After=local-fs.target
+Requires=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/cvmfs-setup.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Enable and start the service:
+```
+sudo systemctl enable cvmfs.service
+sudo systemctl start cvmfs.service
+```
+
+
 Download the pxe-boot scripts:
 
 ```bash
