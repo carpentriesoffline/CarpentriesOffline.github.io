@@ -271,23 +271,31 @@ Create a script that can be run by systemd on bootup. In /usr/local/bin/cvfms-st
 #!/bin/bash
 
 /usr/sbin/losetup /dev/loop0 /sharedfs/loopdevices/${HOSTNAME}
-/bin/mount /dev/loop0 /var/lib/cvmfs
+/bin/mount -o loop /dev/loop0 /var/lib/cvmfs
+cvmfs_config reload
 ```
 
-Create the following systemd service script in /etc/systemd/system/cvfms.service:
+Create the following systemd service script in /lib/systemd/system/cvmfs.service:
 ```
 [Unit]
 Description=Setup Loop Device and Mount Shared Filesystem
-After=local-fs.target
-Requires=local-fs.target
+After=udev.service
+After=mountkernfs.service
+After=remote-fs.target
 
 [Service]
 Type=oneshot
 ExecStart=/usr/local/bin/cvmfs-setup.sh
-RemainAfterExit=yes
 
 [Install]
 WantedBy=multi-user.target
+```
+
+Create a symbolic link in /etc/systemd/system to /lib/systemd/system/cvmfs.service:
+
+```
+cd /etc/systemd/system
+sudo ln -s /lib/systemd/system/cvmfs.service cvmfs.service
 ```
 
 Enable and start the service:
