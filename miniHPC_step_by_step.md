@@ -255,7 +255,7 @@ dd if=/dev/mmcblk0 of=node.img
 
 - Setup PXE booting
 
-To use eessi with PXE it is necessary to create a loop device for each node in the shared filesystem and then 
+To use eessi with PXE it is necessary to create a loop device for each compute node in the shared filesystem and then 
 mount it on /var/lib/cvmfs. 
 
 Creating a loop device:
