@@ -260,11 +260,8 @@ mount it on /var/lib/cvmfs.
 
 Creating a loop device:
 ```bash
-dd if=/dev/mmcblk0 of=node.img bs=4M count=5120
-sudo parted -s /dev/loop0
-sudo parted -s /dev/loop0 mklabel msdos
-sudo parted -s /dev/loop0 mkpart primary
-sudo mkfs.ext4 /dev/loop0
+sudo dd if=/dev/zero of=/sharedfs/loopdevices/${HOSTNAME} bs=4M count=5120
+sudo mkfs.ext4 /sharedfs/loopdevices/${HOSTNAME}
 ```
 Create a script that can be run by systemd on bootup. In /usr/local/bin/cvfms-startup.sh enter:
 ```
