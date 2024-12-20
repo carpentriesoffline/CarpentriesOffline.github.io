@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="84.707985mm"
+   width="84.708mm"
    height="21.080383mm"
-   viewBox="0 0 84.707985 21.080383"
+   viewBox="0 0 84.708 21.080383"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="OFFLINE.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -29,14 +29,16 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="3.420206"
-     inkscape:cx="160.07808"
-     inkscape:cy="39.763687"
+     inkscape:cx="159.93189"
+     inkscape:cy="39.617497"
      inkscape:window-width="1920"
-     inkscape:window-height="1006"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2">
     <linearGradient
@@ -392,13 +394,13 @@
        id="path19316" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#ff4955;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="70.90284"
        y="90.964943"
        id="text24358"><tspan
          sodipodi:role="line"
          id="tspan24356"
-         style="font-size:5.64444px;fill:#ff8080;stroke-width:0.264583"
+         style="font-size:5.64444px;fill:#ff4955;fill-opacity:1;stroke-width:0.264583"
          x="70.90284"
          y="90.964943">OFFLINE</tspan></text>
     <text
